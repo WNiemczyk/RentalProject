@@ -42,7 +42,6 @@ public class Shelf {
                 "Jim Jarmusch", 2005, FilmStatus.Available));
         this.existedFilms.put(new Location(4, 0), new Film("Dom zły",
                 "Wojciech Smarzowski", 2009, FilmStatus.Available));
-
     }
 
     public synchronized void addFilmListener(FilmListener listener) {
