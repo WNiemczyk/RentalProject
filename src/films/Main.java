@@ -60,8 +60,8 @@ public class Main {
         }
 
         try {
-            logger.info(shelf.changeLocation(new Location(2, 0), new Location(3, 0)));
-        } catch (LocationIsNullException e) {
+            shelf.changeLocation(new Location(2, 0), new Location(3, 0));
+        } catch (FilmNotFoundException e) {
             logger.warn(e.toString());
         }
 
@@ -92,8 +92,8 @@ public class Main {
         shelf.show();
 
         try {
-            logger.info(shelf.insertNewFilmOnOccupiedLocation("La Comunidad", new Film("Mulholland Drive",
-                    "David Lynch", 2002, FilmStatus.Available)));
+            shelf.insertNewFilmOnOccupiedLocation("La Comunidad", new Film("Mulholland Drive",
+                    "David Lynch", 2002, FilmStatus.Available));
         } catch (FilmNotFoundException e) {
             logger.warn(e.toString());
         }

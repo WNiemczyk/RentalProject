@@ -30,6 +30,7 @@ public class Shelf {
     }
 
     public void init() {
+
         this.existedFilms.put(new Location(0, 0), new Film("La Comunidad",
                 "de la Iglesia", 2004, FilmStatus.Available));
         this.existedFilms.put(new Location(1, 0), new Film("Soul Kitchen",
@@ -62,7 +63,6 @@ public class Shelf {
         int maxY = 0;
 
         String map = "";
-
         Location l;
 
         for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
@@ -101,10 +101,12 @@ public class Shelf {
         this.existedFilms.put(location, film);
         this.film = film;
         this.fireFilmAddedEvent();
+
         logger.info("Added film " + film + " in location " + location);
     }
 
     private synchronized void fireFilmAddedEvent() {
+
         FilmEvent event = new FilmEvent(film);
         for (FilmListener filmListener : filmListeners) {
             filmListener.filmAdded(event);
@@ -112,6 +114,7 @@ public class Shelf {
     }
 
     public void borrow(Film film) {
+
         if ((film.getStatus() == FilmStatus.Available)
                 || (film.getStatus() == FilmStatus.Reserved)) {
             this.film = film;
@@ -121,6 +124,7 @@ public class Shelf {
     }
 
     private synchronized void fireFilmBorrowedEvent() {
+
         FilmEvent event = new FilmEvent(film);
         for (FilmListener filmListener : filmListeners) {
             filmListener.filmBorrowed(event);
@@ -128,12 +132,14 @@ public class Shelf {
     }
 
     public void returnFilm(Film film) {
+
         this.film = film;
         film.setStatus(FilmStatus.Available);
         fireFilmReturnedEvent();
     }
 
     private synchronized void fireFilmReturnedEvent() {
+
         FilmEvent event = new FilmEvent(film);
         for (FilmListener filmListener : filmListeners) {
             filmListener.filmReturned(event);
@@ -141,6 +147,7 @@ public class Shelf {
     }
 
     public void reserve(Film film) {
+
         if (film.getStatus() == FilmStatus.Available) {
             this.film = film;
             film.setStatus(FilmStatus.Reserved);
@@ -156,6 +163,7 @@ public class Shelf {
     }
 
     public Location getFreeLocation() throws EndOfShelfException {
+
         Location location = new Location(0, 0);
 
         for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
@@ -182,46 +190,42 @@ public class Shelf {
     }
 
     public void put(Film film) throws EndOfShelfException {
+
         Location location = this.getFreeLocation();
-
         if (location == null) throw new EndOfShelfException("All shelfs are occupied");
-
         this.put(location, film);
     }
 
     public void put(ArrayList<Film> films) throws EndOfShelfException {
+
         for (Film f : films) {
             this.put(f);
         }
     }
 
-    public void putInLocation(Location l, Film f)
+    public void putInLocation(Location location, Film film)
             throws LocationIsNullException {
 
         for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-
-            if ((e.getKey() != null) && (e.getKey().equals(l))) {
-
+            if ((e.getKey() != null) && (e.getKey().equals(location))) {
                 throw new LocationIsNullException(
                         "Cannot put film in occupied location");
-            } else if ((e.getKey() == null) && (e.getKey().equals(l))) {
-                this.existedFilms.put(l, f);
+            } else if ((e.getKey() == null) && (e.getKey().equals(location))) {
+                this.existedFilms.put(location, film);
             }
         }
 
-        logger.info("Added film " + f + " in location " + l);
-
+        logger.info("Added film " + film + " in location " + location);
     }
 
-    public void removeByLocation(Location l) throws LocationIsNullException {
+    public void removeByLocation(Location location) throws LocationIsNullException {
 
-        if (l == null) throw new LocationIsNullException("");
+        if (location == null) throw new LocationIsNullException("Cannot remove film from empty location");
         else {
-            this.getExistedFilms().remove(l);
+            this.getExistedFilms().remove(location);
         }
 
-        logger.info("Removed film from location " + l);
-
+        logger.info("Removed film from location " + location);
     }
 
     public Film findByLocation(Location location) throws FilmNotFoundException {
@@ -236,10 +240,9 @@ public class Shelf {
         return film;
     }
 
-    public Map<Location, Film> insertNewFilmOnOccupiedLocation(String title, Film film) throws FilmNotFoundException {
+    public void insertNewFilmOnOccupiedLocation(String title, Film film) throws FilmNotFoundException {
 
-        for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-
+        for (Map.Entry<Location, Film> e : this.existedFilms.entrySet()) {
             if (e.getValue().getTitle().equals(title)) {
                 this.existedFilms.put(e.getKey(), film);
                 break;
@@ -250,45 +253,36 @@ public class Shelf {
         }
 
         logger.info("New film " + film + " is putted instead of film " + title);
-
-        return existedFilms;
     }
 
-    public Location changeLocation(Location l1, Location l2)
-            throws LocationIsNullException {
+    public void changeLocation(Location l1, Location l2)
+            throws FilmNotFoundException {
 
-        Film location1 = existedFilms.get(l1);
-        Film location2 = existedFilms.get(l2);
+        Film location1 = this.existedFilms.get(l1);
+        Film location2 = this.existedFilms.get(l2);
 
         if ((location1 == null) || (location2 == null)) {
-            throw new LocationIsNullException("Cannot give empty location");
+            throw new FilmNotFoundException("Cannot give empty film");
         } else {
-            this.existedFilms.put(l1, (Film) location2);
-            this.existedFilms.put(l2, (Film) location1);
+            this.existedFilms.put(l1, location2);
+            this.existedFilms.put(l2, location1);
         }
 
         logger.info("Changed films from location " + l1 + " into " + l2
                 + " and viceversa");
-
-        return l2;
     }
 
     public void clearAll() {
-
         this.getExistedFilms().clear();
         logger.info("All films are cleared");
     }
 
     public Map<Location, Film> findByYear(int year) throws FilmNotFoundException {
-
         Map<Location, Film> foundedFilms = new HashMap<Location, Film>();
-
         for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-
             if (e.getValue().getYear() == year)
                 foundedFilms.put(e.getKey(), e.getValue());
         }
-
         if (foundedFilms.size() == 0)
             throw new FilmNotFoundException("There are not films from year: "
                     + year);
@@ -335,7 +329,8 @@ public class Shelf {
             throw new LocationIsNullException(
                     "There are not films by director: " + director);
 
-        logger.info("Films made by " + director + " you can find in locations: ");
+        logger.info("Films made by " + director + " you can find at locations: ");
+
         for (Location location : locations) {
             System.out.println(location + ", ");
         }
@@ -345,10 +340,12 @@ public class Shelf {
     }
 
     public Map<Location, Film> getExistedFilms() {
+
         return existedFilms;
     }
 
     public void setExistedFilms(Map<Location, Film> existedFilms) {
+
         this.existedFilms = existedFilms;
     }
 

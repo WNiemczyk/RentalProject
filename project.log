@@ -749,3 +749,250 @@
 2015-07-07 21:00:40,429 [main] INFO  films.Shelf - Found free location:  [1] [0]
 2015-07-07 21:00:40,429 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
 2015-07-07 21:00:40,430 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film Dzień świra
+2015-07-07 22:13:37,603 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:13:37,604 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:13:37,604 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:13:37,604 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:13:37,605 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2015-07-07 22:13:37,605 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2015-07-07 22:13:37,605 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2015-07-07 22:13:37,605 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations: 
+2015-07-07 22:13:37,605 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2015-07-07 22:13:37,606 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2015-07-07 22:13:37,606 [main] INFO  films.Main -  [3] [0]
+2015-07-07 22:13:37,606 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:13:37,606 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Found free location:  [5] [0]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Added film Chinatown, Roman Polański, 1974 in location  [5] [0]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Found free location:  [0] [1]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Added film Taxi Driver, Martin Scorsese, 1976 in location  [0] [1]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Found free location:  [1] [1]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Added film Snatch, Guy Ritchie, 2000 in location  [1] [1]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Found free location:  [2] [1]
+2015-07-07 22:13:37,607 [main] INFO  films.Shelf - Added film Nóż w wodzie, Roman Polański, 1961 in location  [2] [1]
+2015-07-07 22:13:37,608 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:13:37,608 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film La Comunidad
+2015-07-07 22:13:37,608 [main] INFO  films.Main - { [0] [0]=Mulholland Drive, David Lynch, 2002,  [1] [0]=Soul Kitchen, Fatih Akin, 2010,  [0] [1]=Taxi Driver, Martin Scorsese, 1976,  [2] [0]=Broken Flowers, Jim Jarmusch, 2005,  [1] [1]=Snatch, Guy Ritchie, 2000,  [3] [0]=The Limits of Control, Jim Jarmusch, 2009,  [2] [1]=Nóż w wodzie, Roman Polański, 1961,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Chinatown, Roman Polański, 1974}
+2015-07-07 22:13:37,608 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:13:37,609 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2015-07-07 22:13:37,609 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:13:37,609 [main] INFO  films.Shelf - Found film Snatch, Guy Ritchie, 2000 in location [1] [1]
+2015-07-07 22:13:37,609 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:13:37,609 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2015-07-07 22:14:53,673 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:14:53,674 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:14:53,674 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:14:53,674 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:15:46,030 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:15:46,030 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:15:46,030 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:15:46,031 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:15:46,031 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2015-07-07 22:15:46,031 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2015-07-07 22:15:46,031 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2015-07-07 22:15:46,031 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations: 
+2015-07-07 22:15:46,032 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2015-07-07 22:15:46,032 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2015-07-07 22:15:46,032 [main] INFO  films.Main -  [3] [0]
+2015-07-07 22:15:46,032 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:15:46,032 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:15:46,033 [main] INFO  films.Shelf - Found free location:  [5] [0]
+2015-07-07 22:15:46,033 [main] INFO  films.Shelf - Added film Chinatown, Roman Polański, 1974 in location  [5] [0]
+2015-07-07 22:15:46,033 [main] INFO  films.Shelf - Found free location:  [0] [1]
+2015-07-07 22:15:46,033 [main] INFO  films.Shelf - Added film Taxi Driver, Martin Scorsese, 1976 in location  [0] [1]
+2015-07-07 22:15:46,033 [main] INFO  films.Shelf - Found free location:  [1] [1]
+2015-07-07 22:15:46,034 [main] INFO  films.Shelf - Added film Snatch, Guy Ritchie, 2000 in location  [1] [1]
+2015-07-07 22:15:46,034 [main] INFO  films.Shelf - Found free location:  [2] [1]
+2015-07-07 22:15:46,034 [main] INFO  films.Shelf - Added film Nóż w wodzie, Roman Polański, 1961 in location  [2] [1]
+2015-07-07 22:15:46,034 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:15:46,034 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film La Comunidad
+2015-07-07 22:15:46,034 [main] INFO  films.Main - { [0] [0]=Mulholland Drive, David Lynch, 2002,  [1] [0]=Soul Kitchen, Fatih Akin, 2010,  [0] [1]=Taxi Driver, Martin Scorsese, 1976,  [2] [0]=Broken Flowers, Jim Jarmusch, 2005,  [1] [1]=Snatch, Guy Ritchie, 2000,  [3] [0]=The Limits of Control, Jim Jarmusch, 2009,  [2] [1]=Nóż w wodzie, Roman Polański, 1961,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Chinatown, Roman Polański, 1974}
+2015-07-07 22:15:46,035 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:15:46,035 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2015-07-07 22:15:46,035 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:15:46,035 [main] INFO  films.Shelf - Found film Snatch, Guy Ritchie, 2000 in location [1] [1]
+2015-07-07 22:15:46,035 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:15:46,036 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2015-07-07 22:37:18,277 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:37:18,278 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:37:18,278 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:37:18,278 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:37:18,278 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2015-07-07 22:37:18,278 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2015-07-07 22:37:18,278 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2015-07-07 22:37:18,278 [main] INFO  films.Shelf - Films made by Jarmusch you can find at locations: 
+2015-07-07 22:37:18,279 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2015-07-07 22:37:18,279 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2015-07-07 22:37:18,279 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:37:18,279 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Found free location:  [5] [0]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Added film Chinatown, Roman Polański, 1974 in location  [5] [0]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Found free location:  [0] [1]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Added film Taxi Driver, Martin Scorsese, 1976 in location  [0] [1]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Found free location:  [1] [1]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Added film Snatch, Guy Ritchie, 2000 in location  [1] [1]
+2015-07-07 22:37:18,280 [main] INFO  films.Shelf - Found free location:  [2] [1]
+2015-07-07 22:37:18,281 [main] INFO  films.Shelf - Added film Nóż w wodzie, Roman Polański, 1961 in location  [2] [1]
+2015-07-07 22:37:18,281 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:37:18,281 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film La Comunidad
+2015-07-07 22:37:18,281 [main] INFO  films.Main - { [0] [0]=Mulholland Drive, David Lynch, 2002,  [1] [0]=Soul Kitchen, Fatih Akin, 2010,  [0] [1]=Taxi Driver, Martin Scorsese, 1976,  [2] [0]=Broken Flowers, Jim Jarmusch, 2005,  [1] [1]=Snatch, Guy Ritchie, 2000,  [3] [0]=The Limits of Control, Jim Jarmusch, 2009,  [2] [1]=Nóż w wodzie, Roman Polański, 1961,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Chinatown, Roman Polański, 1974}
+2015-07-07 22:37:18,281 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:37:18,281 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2015-07-07 22:37:18,282 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:37:18,282 [main] INFO  films.Shelf - Found film Snatch, Guy Ritchie, 2000 in location [1] [1]
+2015-07-07 22:37:18,282 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:37:18,282 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2015-07-07 22:40:31,907 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:31,908 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:40:31,908 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:31,908 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:40:31,908 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2015-07-07 22:40:31,908 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2015-07-07 22:40:31,908 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2015-07-07 22:40:31,909 [main] INFO  films.Shelf - Films made by Jarmusch you can find at locations: 
+2015-07-07 22:40:31,909 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2015-07-07 22:40:31,909 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2015-07-07 22:40:31,909 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:31,909 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:40:31,910 [main] INFO  films.Shelf - Found free location:  [5] [0]
+2015-07-07 22:40:31,910 [main] INFO  films.Shelf - Added film Chinatown, Roman Polański, 1974 in location  [5] [0]
+2015-07-07 22:40:31,910 [main] INFO  films.Shelf - Found free location:  [0] [1]
+2015-07-07 22:40:31,910 [main] INFO  films.Shelf - Added film Taxi Driver, Martin Scorsese, 1976 in location  [0] [1]
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - Found free location:  [1] [1]
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - Added film Snatch, Guy Ritchie, 2000 in location  [1] [1]
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - Found free location:  [2] [1]
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - Added film Nóż w wodzie, Roman Polański, 1961 in location  [2] [1]
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:31,911 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film La Comunidad
+2015-07-07 22:40:31,911 [main] INFO  films.Main - { [0] [0]=Mulholland Drive, David Lynch, 2002,  [1] [0]=Soul Kitchen, Fatih Akin, 2010,  [0] [1]=Taxi Driver, Martin Scorsese, 1976,  [2] [0]=Broken Flowers, Jim Jarmusch, 2005,  [1] [1]=Snatch, Guy Ritchie, 2000,  [3] [0]=The Limits of Control, Jim Jarmusch, 2009,  [2] [1]=Nóż w wodzie, Roman Polański, 1961,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Chinatown, Roman Polański, 1974}
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - Found film Snatch, Guy Ritchie, 2000 in location [1] [1]
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:40:31,912 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2015-07-07 22:40:55,239 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:55,240 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2015-07-07 22:40:55,240 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:55,240 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:40:55,241 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2015-07-07 22:40:55,241 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2015-07-07 22:40:55,241 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2015-07-07 22:40:55,241 [main] INFO  films.Shelf - Films made by Jarmusch you can find at locations: 
+2015-07-07 22:40:55,242 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2015-07-07 22:40:55,242 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2015-07-07 22:40:55,242 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2015-07-07 22:40:55,242 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location [1] [0]
+2015-07-07 22:40:55,243 [main] INFO  films.Shelf - Found free location:  [5] [0]
+2015-07-07 22:40:55,243 [main] INFO  films.Shelf - Added film Chinatown, Roman Polański, 1974 in location  [5] [0]
+2015-07-07 22:40:55,243 [main] INFO  films.Shelf - Found free location:  [0] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Added film Taxi Driver, Martin Scorsese, 1976 in location  [0] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Found free location:  [1] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Added film Snatch, Guy Ritchie, 2000 in location  [1] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Found free location:  [2] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Added film Nóż w wodzie, Roman Polański, 1961 in location  [2] [1]
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:55,244 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film La Comunidad
+2015-07-07 22:40:55,245 [main] INFO  films.Main - { [0] [0]=Mulholland Drive, David Lynch, 2002,  [1] [0]=Soul Kitchen, Fatih Akin, 2010,  [0] [1]=Taxi Driver, Martin Scorsese, 1976,  [2] [0]=Broken Flowers, Jim Jarmusch, 2005,  [1] [1]=Snatch, Guy Ritchie, 2000,  [3] [0]=The Limits of Control, Jim Jarmusch, 2009,  [2] [1]=Nóż w wodzie, Roman Polański, 1961,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Chinatown, Roman Polański, 1974}
+2015-07-07 22:40:55,245 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:55,245 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2015-07-07 22:40:55,245 [main] INFO  films.Shelf - Current films: (0,1) [Taxi Driver, Martin Scorsese, 1976] (1,1) [Snatch, Guy Ritchie, 2000] (2,1) [Nóż w wodzie, Roman Polański, 1961] (3,1) [null] (4,1) [null] (5,1) [null] 
+(0,0) [Mulholland Drive, David Lynch, 2002] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Chinatown, Roman Polański, 1974] 
+
+2015-07-07 22:40:55,246 [main] INFO  films.Shelf - Found film Snatch, Guy Ritchie, 2000 in location [1] [1]
+2015-07-07 22:40:55,246 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:40:55,246 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2015-07-07 22:41:03,008 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,010 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,010 [main] INFO  films.Shelf - There are 1 films made by Marek Koterski
+2015-07-07 22:41:03,016 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,016 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,017 [main] INFO  films.Shelf - Found film Dzień świra, Marek Koterski, 2002 in location [1] [0]
+2015-07-07 22:41:03,023 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,024 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,024 [main] INFO  films.Shelf - Found free location:  [2] [0]
+2015-07-07 22:41:03,024 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [2] [0]
+2015-07-07 22:41:03,025 [main] INFO  films.Shelf - Removed film from location  [2] [0]
+2015-07-07 22:41:03,028 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,028 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,028 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:41:03,032 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,033 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,037 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,037 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,038 [main] INFO  films.Shelf - Films made by Marek Koterski you can find at locations: 
+2015-07-07 22:41:03,041 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:41:03,041 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:41:03,042 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film Dzień świra
+2015-07-07 22:43:15,445 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,447 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,447 [main] INFO  films.Shelf - There are 1 films made by Marek Koterski
+2015-07-07 22:43:15,452 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,452 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,453 [main] INFO  films.Shelf - Found film Dzień świra, Marek Koterski, 2002 in location [1] [0]
+2015-07-07 22:43:15,458 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,458 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,458 [main] INFO  films.Shelf - Found free location:  [2] [0]
+2015-07-07 22:43:15,459 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [2] [0]
+2015-07-07 22:43:15,459 [main] INFO  films.Shelf - Removed film from location  [2] [0]
+2015-07-07 22:43:15,461 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,461 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,462 [main] INFO  films.Shelf - All films are cleared
+2015-07-07 22:43:15,464 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,465 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,469 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,469 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,470 [main] INFO  films.Shelf - Films made by Marek Koterski you can find at locations: 
+2015-07-07 22:43:15,473 [main] INFO  films.Shelf - Found free location:  [1] [0]
+2015-07-07 22:43:15,473 [main] INFO  films.Shelf - Added film Dzień świra, Marek Koterski, 2002 in location  [1] [0]
+2015-07-07 22:43:15,474 [main] INFO  films.Shelf - New film Mulholland Drive, David Lynch, 2002 is putted instead of film Dzień świra

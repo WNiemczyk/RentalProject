@@ -56,13 +56,13 @@ public class ShelfTest {
         }
         Film foundFilm = shelf.findByLocation(location);
 
-        Assert.assertNotNull("Cannot find film by location " + location, foundFilm);
+        Assert.assertNotNull("Cannot find film by location", foundFilm);
     }
 
     @Test
     public void findLocationByDirector() throws LocationIsNullException {
         String director = null;
-        if (shelf.getExistedFilms() != null) {
+        if (!shelf.getExistedFilms().isEmpty()) {
             for (Map.Entry<Location, Film> e : shelf.getExistedFilms().entrySet()) {
                 director = e.getValue().getDirector();
                 break;
